@@ -17,7 +17,13 @@ body{
     width: 15%;
 }
 
+.loading {
+    width: 100%;
+    height: 73vh;
+}
+
 .content {
+    box-sizing: border-box;
     width: 100%;
     height: 73vh;
     padding: 15px 0;
@@ -49,6 +55,21 @@ body{
 }
 
 .container__card {
+    color: #fff;
+    background-color: #53b949;
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 33%;
+}
+
+.container__button{
+    height: 33%;
     color: #fff;
     background-color: #53b949;
     width: 30%;
