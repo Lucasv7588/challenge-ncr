@@ -1,7 +1,13 @@
+import Bar from "./components/Bar";
+import Bottom from "./components/Bottom";
+import Content from "./components/Content";
+
 function App() {
   return (
     <div className="App">
-      app
+      <Bar />
+      <Content />
+      <Bottom />
     </div>
   );
 }
